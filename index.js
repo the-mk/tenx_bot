@@ -14,6 +14,7 @@ var run = 0;
 if (test) {
   execute();
 } else {
+  console.log("Interval run initiated");
   setInterval(function(){
     execute();
   }, 300000); 
